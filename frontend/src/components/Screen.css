@@ -1,0 +1,19 @@
+div.screen {
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 35em;
+  border-radius: 1em;
+  background: #20232a;
+}
+div.screen > div.head {
+  padding: 2em 2em 1em; 
+  text-align: center;
+}
+div.screen > div.head > span {
+  padding: 1em 2em;
+}
+div.screen > div.messages {
+  flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+div.row {
+  display: flex;
+  padding: 0.25em 1em;
+  justify-content: flex-end;
+}
+div.row > div.msg {
+  background: #82D7F7;
+  border-radius: 0.5em;
+}
+div.row > div.msg > p {
+  width: auto;
+  max-width: 12em;
+  width: 100%;
+  padding: 0.5em;
+  margin: 0;
+  color: #282c34;
+}
+div.row.passive {    
+  justify-content: flex-start;
+}
+div.row.passive > div.msg {
+  background: #282c34;
+}
+div.row.passive > div.msg > p {
+  color: #fff;
+} 

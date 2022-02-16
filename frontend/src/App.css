@@ -1,0 +1,34 @@
+body {
+  background-color: #282c34;
+  color: #fff;
+}
+div.body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10em;
+  align-items: center;
+  height: 100vh;
+}
+div.body > div.desc {
+  padding: 3em;
+  text-align: center;
+}
+div.body > div.desc > p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+div.body > div.desc > p a {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+div.body > div.desc > button {
+  background: #33363D;
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 1em;
+}
